@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gjs-container {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .gjs-container {
+    font-size: 14px;
+  }
+}
